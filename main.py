@@ -5,8 +5,7 @@ def menu():
     print("2. Decode")
     print("3. Quit")
 
-
-
+#mahek encode function
 def encode(password):
     #takes number and adds 3 to it
     new_password = ''
@@ -15,6 +14,7 @@ def encode(password):
         new_password += str(num) 
     return new_password
 
+#matthew decode function
 def decode(encoded_password):
     """Takes in the encoded password and returns the original password."""
     decoded_password = ""
